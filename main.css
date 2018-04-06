@@ -1,0 +1,66 @@
+.answer{
+	background:lightsilver;
+	padding:10px;
+	border:1px solid silver;
+	cursor:pointer;
+	min-width:30%;
+	max-width:50%;
+	float:left;
+	margin:0 auto;
+	-webkit-user-select: none;
+	margin:3px;
+}
+.answer:hover{
+	background:silver;
+}
+
+.surak{
+	background:white;
+	padding:20px;
+	border:1px solid silver;
+	margin:0 auto;
+}
+#wrap{
+	margin:0 auto;
+	width:95%;
+}
+.classic { background: #FFFFAA; border: 1px solid #FFAD33; }
+
+.tooltip {
+  border-bottom: 1px dotted #000000;
+  color: #000000; outline: none;
+  cursor: help; text-decoration: none;
+  position: relative;
+}
+.tooltip span {
+  display:none;
+}
+
+.tooltip:hover span {
+  font-family: Calibri, Tahoma, Geneva, sans-serif;
+  position: absolute;
+  z-index: 99;
+  margin-left: 0;
+  width: 200px;
+  margin-bottom:40px;
+  display:block;
+  margin-left:50%;
+}
+.tooltip:hover img {
+  border: 0;
+  margin: -10px 0 0 -55px;
+  float: left;
+  position: absolute;
+}
+.tooltip:hover em {
+  font-family: Candara, Tahoma, Geneva, sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  display: block;
+  padding: 0.2em 0 0.6em 0;
+}
+.classic { padding: 0.8em 1em; }
+.custom { padding: 0.5em 0.8em 0.8em 2em; }
+<strong>* html</strong> a:hover { background: transparent; }
+	
+	
