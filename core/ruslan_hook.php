@@ -2,7 +2,7 @@
 // Load composer
 require __DIR__ . '/vendor/autoload.php';
 
-$bot_api_key  = '424823219:AAHZxfCHW-x5_aRFOz3U8etuDGsmx9N0QSM';
+$bot_api_key  = '';
 $bot_username = 'Lawkzbot';
 
 // Define all paths for your custom commands in this array (leave as empty array if not used)
